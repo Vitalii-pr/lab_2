@@ -1,9 +1,5 @@
-'''Alghorithms'''
+'''Bellman Ford'''
 
-# Kraskal algorithm
-# function
-
-# Bellman Ford algorithm
 def bellman_ford(lst_edg_wei: list) -> None:
     '''
     Bellman Ford algorithm for finding the shortest distance between vertices
