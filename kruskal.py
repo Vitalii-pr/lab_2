@@ -23,14 +23,3 @@ def kruskal(graph):
             disjoint_set.union(u, v)
 
     return res
-
-
-
-graph = [
-    (0, 1, {'weight': 1}), (1, 2, {'weight': 2}), (2, 3, {'weight': 9}),
-    (3, 4, {'weight': 8}), (2, 4, {'weight': 7}), (4, 5, {'weight': 5}),
-    (5, 6, {'weight': 3}), (6, 0, {'weight': 4}), (0, 5, {'weight': 8}),
-    (1, 6, {'weight': 3}), (1, 5, {'weight': 2}), (2, 5, {'weight': 6})
-]
-
-print(kruskal(graph))

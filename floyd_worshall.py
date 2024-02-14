@@ -15,7 +15,7 @@ def adjacency_matrix(graph):
 
     return adj_matrix
 
-def floyd_warshall(graph):
+def floyd_worshall(graph):
     res = dict()
     adj_matrix = adjacency_matrix(graph)
     num_of_nodes = len(adj_matrix)
